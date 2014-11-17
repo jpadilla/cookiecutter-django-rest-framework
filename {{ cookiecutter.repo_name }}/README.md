@@ -24,6 +24,26 @@ $ pip install djangorestframework
 
 TODO: Write example.
 
+## Testing
+
+Install testing requirements.
+
+```bash
+$ pip install -r requirements-test.txt
+```
+
+Run with runtests.
+
+```bash
+$ ./runtests.py
+```
+
+You can also use the excellent [tox](http://tox.readthedocs.org/en/latest/) testing tool to run the tests against all supported versions of Python and Django. Install tox globally, and then simply run:
+
+```bash
+$ tox
+```
+
 ## Documentation & Support
 
 TODO: Write docs and support information.
