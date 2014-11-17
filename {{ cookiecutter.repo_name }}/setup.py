@@ -7,7 +7,7 @@ from setuptools import setup
 from setuptools.command.test import test as TestCommand
 
 
-name = '{{ cookiecutter.project_name }}'
+name = '{{ cookiecutter.pypi_project_name }}'
 package = '{{ cookiecutter.app_name }}'
 description = '{{ cookiecutter.project_short_description }}'
 url = '{{ cookiecutter.url }}'

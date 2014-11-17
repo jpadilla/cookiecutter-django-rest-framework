@@ -26,7 +26,7 @@ Warning: After this point, change 'José Padilla', 'jpadilla', etc to your own i
 full_name (default is "Your full name here")? José Padilla
 email (default is "you@example.com")? hello@jpadilla.com
 github_username (default is "yourname")? jpadilla
-project_name (default is "dj-package")? drf-things
+pypi_project_name (default is "dj-package")? drf-things
 repo_name (default is "dj-package")? drf-things
 app_name (default is "djpackage")? drfthings
 project_short_description (default is "Your project description goes here")?
