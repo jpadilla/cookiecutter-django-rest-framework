@@ -1,0 +1,11 @@
+{
+  "full_name": "Your full name here",
+  "email": "you@example.com",
+  "github_username": "yourname",
+  "project_name": "dj-package",
+  "repo_name": "dj-package",
+  "app_name": "djpackage",
+  "project_short_description": "Your project description goes here",
+  "year": "2014",
+  "version": "0.1.0"
+}
