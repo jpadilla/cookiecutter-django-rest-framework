@@ -1,0 +1,4 @@
+site_name: {{ cookiecutter.pypi_project_name }}
+site_description: {{ cookiecutter.project_short_description }}
+repo_url: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
+site_dir: html
