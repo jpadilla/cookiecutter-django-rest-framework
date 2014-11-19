@@ -10,7 +10,7 @@ from setuptools.command.test import test as TestCommand
 name = '{{ cookiecutter.pypi_project_name }}'
 package = '{{ cookiecutter.app_name }}'
 description = '{{ cookiecutter.project_short_description }}'
-url = '{{ cookiecutter.url }}'
+url = 'https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}'
 author = '{{ cookiecutter.full_name }}'
 author_email = '{{ cookiecutter.email }}'
 license = 'BSD'
