@@ -1,6 +1,6 @@
 # cookiecutter-django-rest-framework
 
-A cookiecutter template for creating reusable Django REST Framework packages quickly.
+A cookiecutter template for creating reusable Django REST Framework packages with the best practices quickly.
 
 ## Features
 
