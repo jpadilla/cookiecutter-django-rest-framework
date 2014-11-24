@@ -17,7 +17,7 @@
 Install using `pip`...
 
 ```bash
-$ pip install djangorestframework
+$ pip install {{ cookiecutter.pypi_project_name }}
 ```
 
 ## Example
