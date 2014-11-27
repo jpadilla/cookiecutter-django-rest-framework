@@ -2,9 +2,9 @@
   "full_name": "Your full name here",
   "email": "you@example.com",
   "github_username": "yourname",
-  "pypi_project_name": "dj-package",
-  "repo_name": "dj-package",
-  "app_name": "djpackage",
+  "pypi_project_name": "djangorestframework-package",
+  "repo_name": "django-rest-framework-package",
+  "app_name": "rest_framework_package",
   "project_short_description": "Your project description goes here",
   "year": "2014",
   "version": "0.1.0"
