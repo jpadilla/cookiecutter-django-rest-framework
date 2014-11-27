@@ -1,5 +1,3 @@
-# {{ cookiecutter.pypi_project_name }}
-
 <div class="badges">
     <a href="http://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}?branch=master">
         <img src="https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.svg?branch=masterr">
@@ -8,6 +6,14 @@
         <img src="https://pypip.in/version/{{ cookiecutter.pypi_project_name }}/badge.svg">
     </a>
 </div>
+
+---
+
+# {{ cookiecutter.pypi_project_name }}
+
+{{ cookiecutter.project_short_description }}
+
+---
 
 ## Overview
 
