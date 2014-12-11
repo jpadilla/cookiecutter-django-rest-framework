@@ -41,7 +41,7 @@ TODO: Write example.
 Install testing requirements.
 
 ```bash
-$ pip install -r requirements-test.txt
+$ pip install -r requirements.txt
 ```
 
 Run with runtests.
