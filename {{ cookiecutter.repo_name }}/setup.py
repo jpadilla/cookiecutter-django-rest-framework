@@ -16,20 +16,6 @@ author_email = '{{ cookiecutter.email }}'
 license = 'BSD'
 
 
-# This command has been borrowed from
-# https://github.com/getsentry/sentry/blob/master/setup.py
-class PyTest(TestCommand):
-    def finalize_options(self):
-        TestCommand.finalize_options(self)
-        self.test_args = ['tests']
-        self.test_suite = True
-
-    def run_tests(self):
-        import pytest
-        errno = pytest.main(self.test_args)
-        sys.exit(errno)
-
-
 def get_version(package):
     """
     Return package version as listed in `__version__` in `init.py`.
@@ -68,6 +54,9 @@ version = get_version(package)
 
 
 if sys.argv[-1] == 'publish':
+    if os.system("pip freeze | grep wheel"):
+        print("wheel not installed.\nUse `pip install wheel`.\nExiting.")
+        sys.exit()
     os.system("python setup.py sdist upload")
     os.system("python setup.py bdist_wheel upload")
     print("You probably want to also tag the version now:")
@@ -86,7 +75,6 @@ setup(
     author_email=author_email,
     packages=get_packages(package),
     package_data=get_package_data(package),
-    cmdclass={'test': PyTest},
     install_requires=[],
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
