@@ -3,7 +3,7 @@
         <img src="https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.svg?branch=master">
     </a>
     <a href="https://pypi.python.org/pypi/{{ cookiecutter.pypi_project_name }}">
-        <img src="https://pypip.in/version/{{ cookiecutter.pypi_project_name }}/badge.svg">
+        <img src="https://img.shields.io/pypi/v/{{ cookiecutter.pypi_project_name }}.svg">
     </a>
 </div>
 

@@ -67,7 +67,7 @@ $ mkdocs build
 ```
 
 
-[build-status-image]: https://secure.travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.png?branch=master
+[build-status-image]: https://secure.travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.svg?branch=master
 [travis]: http://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}?branch=master
-[pypi-version]: https://pypip.in/version/{{ cookiecutter.pypi_project_name }}/badge.svg
+[pypi-version]: https://img.shields.io/pypi/v/{{ cookiecutter.pypi_project_name }}.svg
 [pypi]: https://pypi.python.org/pypi/{{ cookiecutter.pypi_project_name }}
